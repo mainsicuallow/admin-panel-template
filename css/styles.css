@@ -82,15 +82,24 @@ i {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 10em;
+  margin-top: 15em;
+  margin-bottom: 3em;
 }
+
 .user-img {
   display: block;
-  border-radius: 50px;
+  border-radius: 17px;
+  padding: 10px;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  margin: 12px;
 }
+
 .content {
   display: flex;
 }
+
 .search-bar {
   display: flex;
   justify-content: start;
@@ -99,6 +108,7 @@ i {
   width: 35%;
   margin: 2rem;
 }
+
 /* need icon */
 .search-item {
   padding: 15px;
@@ -106,6 +116,7 @@ i {
   margin-bottom: 5em;
   border: 1px solid rgb(124, 120, 120);
 }
+
 .filter-item {
   background-color: #ffff;
   padding: 6px;
