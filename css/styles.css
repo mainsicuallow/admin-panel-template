@@ -122,10 +122,13 @@ i {
   color: #adadad;
   width: 25rem;
   font-size: 1em;
+  font-family: "Mulish", sans-serif;
 }
 
 .search-item:focus {
   outline: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  animation: fadeIn 1s;
 }
 
 .filter-item {
