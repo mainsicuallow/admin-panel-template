@@ -148,9 +148,8 @@ i {
   padding: 6px;
   width: 7rem;
   border-radius: 15px;
-  /* text color need change */
-  color: gray;
-  border: 1px solid rgb(124, 120, 120);
+  color: #adadad;
+  border: 1px solid #adadad;
 }
 
 .input-container i {
