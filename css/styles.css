@@ -108,13 +108,15 @@ i {
   margin: 2rem;
 }
 
-/* need icon */
 .search-item {
   padding: 15px;
   border-radius: 13.5px;
   margin-bottom: 5em;
   border: 1px solid rgb(124, 120, 120);
+  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
+  padding-left: 50px;
 }
+
 .filter-item {
   display: inline;
   overflow-inline: auto;
@@ -127,4 +129,19 @@ i {
   /* text color need change */
   color: gray;
   border: 1px solid rgb(124, 120, 120);
+}
+
+.input-container i {
+  position: absolute;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 38px;
+  text-align: center;
 }
