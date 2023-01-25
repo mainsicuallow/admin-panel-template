@@ -85,7 +85,6 @@ i {
   position: absolute;
   bottom: 0;
   min-width: 35px;
-
 }
 
 .user-img {
@@ -96,6 +95,17 @@ i {
   height: 50px;
   width: 50px;
   margin: 12px;
+  position: relative;
+}
+
+.online-circle {
+  height: 15px;
+  width: 15px;
+  background-color: #62AE6E;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2em;
+  right: 7px;
 }
 
 .content {
