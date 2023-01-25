@@ -47,12 +47,13 @@ i {
 
 .container {
   display: flex;
-  
+
 }
 
 .side-bar {
   width: 20%;
   border-right: 3px solid #ededed;
+  position: relative;
 }
 
 .content {
@@ -80,8 +81,11 @@ i {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 15em;
-  margin-bottom: 3em;
+  margin: 0 0 3em 5em;
+  position: absolute;
+  bottom: 0;
+  min-width: 35px;
+
 }
 
 .user-img {
@@ -117,6 +121,11 @@ i {
   padding-left: 50px;
   color: #adadad;
   width: 25rem;
+  font-size: 1em;
+}
+
+.search-item:focus {
+  outline: none;
 }
 
 .filter-item {
@@ -145,6 +154,7 @@ i {
   min-width: 35px;
   text-align: center;
 }
+
 .main-items-div {
   width: 10;
   display: flex;
