@@ -32,7 +32,6 @@ li {
 }
 
 li:hover {
-  /* border-left: 5px solid rgb(29, 24, 24); */
   cursor: pointer;
   animation: fadeIn 0.5s;
 }
@@ -53,7 +52,7 @@ i {
 
 .side-bar {
   width: 20%;
-  border-right: 3px solid #f9f8f3;
+  border-right: 3px solid #EDEDED;
 }
 
 .content {
@@ -89,7 +88,7 @@ i {
   display: block;
   border-radius: 17px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #EDEDED;
   height: 50px;
   width: 50px;
   margin: 12px;
@@ -112,9 +111,10 @@ i {
   padding: 15px;
   border-radius: 13.5px;
   margin-bottom: 5em;
-  border: 1px solid rgb(124, 120, 120);
+  border: 3px solid #EDEDED;
   background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
   padding-left: 50px;
+  color: #adadad;
 }
 
 .filter-item {
@@ -141,7 +141,7 @@ i {
 }
 
 .icon {
-  padding: 10px;
-  min-width: 38px;
+  padding: 12px;
+  min-width: 35px;
   text-align: center;
 }
