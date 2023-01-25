@@ -47,12 +47,12 @@ i {
 
 .container {
   display: flex;
-  align-items: center;
+  
 }
 
 .side-bar {
   width: 20%;
-  border-right: 3px solid #EDEDED;
+  border-right: 3px solid #ededed;
 }
 
 .content {
@@ -88,7 +88,7 @@ i {
   display: block;
   border-radius: 17px;
   padding: 10px;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   height: 50px;
   width: 50px;
   margin: 12px;
@@ -96,6 +96,7 @@ i {
 
 .content {
   display: flex;
+  flex-direction: column;
 }
 
 .search-bar {
@@ -111,15 +112,14 @@ i {
   padding: 15px;
   border-radius: 13.5px;
   margin-bottom: 5em;
-  border: 3px solid #EDEDED;
+  border: 3px solid #ededed;
   background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
   padding-left: 50px;
   color: #adadad;
+  width: 25rem;
 }
 
 .filter-item {
-  display: inline;
-  overflow-inline: auto;
   margin-left: 12rem;
   align-items: center;
   background-color: #ffff;
@@ -144,4 +144,9 @@ i {
   padding: 12px;
   min-width: 35px;
   text-align: center;
+}
+.main-items-div {
+  width: 10;
+  display: flex;
+  margin: 2rem;
 }
