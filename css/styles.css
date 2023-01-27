@@ -117,15 +117,14 @@ i {
   display: flex;
   justify-content: start;
   flex-direction: column;
-
   width: 35%;
-  margin: 2rem;
+  margin: 5rem 0rem 0rem 3rem;
 }
 
 .search-item {
   padding: 15px;
   border-radius: 13.5px;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   border: 3px solid #ededed;
   background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
   padding-left: 50px;
