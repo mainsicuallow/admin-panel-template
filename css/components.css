@@ -1,0 +1,25 @@
+.nav-list-item {
+    padding: 1rem;
+    list-style: none;
+    border-left: 5px solid #ffffff;
+    color: #484848;
+}
+
+.nav-list-item:hover {
+    cursor: pointer;
+    animation: fadeIn 0.5s;
+}
+
+i {
+    padding-left: 2rem;
+    font-size: 20px;
+}
+
+.active {
+    border-left: 5px solid rgb(29, 24, 24);
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: #484848;
+}
