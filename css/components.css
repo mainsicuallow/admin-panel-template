@@ -11,9 +11,12 @@
 }
 
 i {
-    padding-left: 2rem;
     font-size: 20px;
     color: #484848;
+}
+
+.menu-icon {
+    padding-left: 2rem;
 }
 
 .active {
@@ -61,4 +64,8 @@ i {
     border: 1px solid #adadad;
     display: flex;
     align-items: center;
+}
+
+.filter-item i {
+    padding-left: 2rem;
 }
