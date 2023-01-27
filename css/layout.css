@@ -18,6 +18,7 @@
   padding: 1rem;
   list-style: none;
   border-left: 5px solid #ffffff;
+  color: #484848;
 }
 
 .nav-list-item:hover {
@@ -43,6 +44,11 @@ i {
   width: 20%;
   border-right: 3px solid #ededed;
   position: relative;
+}
+
+.nav-list-link {
+  text-decoration: none;
+  color: #484848;
 }
 
 .content {
