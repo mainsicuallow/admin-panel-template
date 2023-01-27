@@ -64,7 +64,9 @@ i {
     border: 1px solid #adadad;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
 
 .filter-item i {
     padding-left: 2rem;
