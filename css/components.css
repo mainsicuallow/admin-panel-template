@@ -23,3 +23,39 @@ i {
     text-decoration: none;
     color: #484848;
 }
+
+.icon {
+    padding: 12px;
+    min-width: 35px;
+    text-align: center;
+}
+
+.search-item {
+    padding: 15px;
+    border-radius: 13.5px;
+    margin-bottom: 3em;
+    border: 3px solid #ededed;
+    background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
+    padding-left: 50px;
+    color: #adadad;
+    width: 25rem;
+    font-size: 1em;
+    font-family: "Mulish", sans-serif;
+}
+
+.search-item:focus {
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: fadeIn 1s;
+}
+
+.filter-item {
+    margin-left: 12rem;
+    align-items: center;
+    background-color: #ffff;
+    padding: 6px;
+    width: 7rem;
+    border-radius: 15px;
+    color: #adadad;
+    border: 1px solid #adadad;
+}
