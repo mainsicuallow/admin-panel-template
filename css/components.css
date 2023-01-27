@@ -13,6 +13,7 @@
 i {
     padding-left: 2rem;
     font-size: 20px;
+    color: #484848;
 }
 
 .active {
@@ -55,7 +56,9 @@ i {
     background-color: #ffff;
     padding: 6px;
     width: 7rem;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #adadad;
     border: 1px solid #adadad;
+    display: flex;
+    align-items: center;
 }
