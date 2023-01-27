@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
-
 @keyframes fadeIn {
   0% {
     opacity: 0.6;
@@ -10,15 +8,6 @@
   }
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: "Mulish", sans-serif;
-  background-color: #ffffff;
-}
 
 ul {
   display: flex;
