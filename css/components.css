@@ -90,11 +90,27 @@ i {
 
 .caption {
     color: #adadad;
-    font-weight: 100;
     font-size: 15px;
 }
 
 .title {
-    color: #484848;
+    color: #010101;
     font-size: 30px;
+}
+
+.main-item-text h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 9px 0px 9px 0px;
+}
+
+.main-item-circle {
+    background-color: #E6DFD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin: 0em 1em 2em 0em;
 }
