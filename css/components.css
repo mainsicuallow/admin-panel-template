@@ -87,3 +87,14 @@ i {
 .filter-item i {
     padding-left: 2rem;
 }
+
+.caption {
+    color: #adadad;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.title {
+    color: #484848;
+    font-size: 30px;
+}
