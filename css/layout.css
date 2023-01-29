@@ -129,11 +129,12 @@
   flex-wrap: wrap;
   margin: 2rem 3rem 0rem 3rem;
   justify-content: space-between;
+
 }
 
 .chart-item {
   width: 40%;
   padding: 2em 0em 1em 3em;
   margin-bottom: 2em;
-  background-color: #62AE6E;
+  background-color: #8f918f;
 }
