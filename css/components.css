@@ -94,7 +94,7 @@ i {
 }
 
 .title {
-    color: #010101;
+    color: #090909;
     font-size: 20px;
 }
 
@@ -113,4 +113,12 @@ i {
     width: 3em;
     border-radius: 50%;
     margin: 0em 1em 2em 0em;
+}
+
+.chart-item h1 {
+    padding-top: 5px;
+}
+
+.chart-item h3 {
+    padding-top: 5px;
 }
