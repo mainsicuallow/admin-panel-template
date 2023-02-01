@@ -8,7 +8,7 @@
     --p: 20;
     --b: 22px;
     --c: darkred;
-    --w: 150px;
+    --w: 100px;
 
     width: var(--w);
     aspect-ratio: 1;

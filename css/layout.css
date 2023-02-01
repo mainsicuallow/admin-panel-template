@@ -137,4 +137,5 @@
   padding: 2em 0em 1em 2em;
   margin-bottom: 2em;
   border-radius: 2em;
+  display: flex;
 }
